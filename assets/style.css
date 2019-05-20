@@ -3,3 +3,15 @@ body {
   padding: 0;
   margin: 0;
   box-sizing: border-box; }
+
+.sobre {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+  .sobre .titulo {
+    color: #C90328; }
+  .sobre .subtitulo {
+    color: #121A47;
+    font-weight: bold; }
+  .sobre .texto {
+    color: #707070; }

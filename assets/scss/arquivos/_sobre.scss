@@ -1,0 +1,22 @@
+.sobre {
+    @include flex(center,space-between);
+
+    .titulo {
+        color: $cor-titulo-vermelho;
+        
+    }
+    .subtitulo{
+        color:$cor-secundaria;
+        font-weight: bold;
+    }
+    .texto {
+        color: $cor-texto;
+    }
+
+    
+
+}
+
+
+
+
