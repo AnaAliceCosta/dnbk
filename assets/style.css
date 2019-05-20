@@ -3,3 +3,15 @@ body {
   padding: 0;
   margin: 0;
   box-sizing: border-box; }
+
+.navbar {
+  background-color: #121A47;
+  height: 80px;
+  width: 100%;
+  position: fixed; }
+  .navbar .imagem {
+    position: relative;
+    top: 19px;
+    left: 100px;
+    width: 124px;
+    height: 124px; }
