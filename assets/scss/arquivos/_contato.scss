@@ -1,0 +1,14 @@
+.orcamento {
+    @include flex (center, center);
+    background: $azul;
+    color: $branco;
+}
+.contato {
+   
+}
+.form {
+    border-radius: 5%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
