@@ -3,3 +3,46 @@ body {
   padding: 0;
   margin: 0;
   box-sizing: border-box; }
+
+.servicos__container {
+  margin: 0 auto; }
+
+.servicos__intro {
+  margin: 0 auto;
+  width: 35vw;
+  text-align: center; }
+  .servicos__intro h5 {
+    color: #c90328;
+    text-transform: uppercase; }
+  .servicos__intro h2 {
+    font-size: 32px;
+    color: #121a47; }
+
+.servicos__divcartoes {
+  display: flex;
+  align-items: top;
+  justify-content: center; }
+
+.servicos__cartao {
+  font-size: 16px;
+  color: #707070;
+  width: 16vw;
+  margin: 30px; }
+  .servicos__cartao h4 {
+    font-size: 24px; }
+
+.servicos__titulo__cartao {
+  font-size: 24px;
+  color: #c90328; }
+
+.servicos__suporte {
+  margin: 0 auto;
+  text-align: center;
+  width: 35vw; }
+  .servicos__suporte h2 {
+    color: #c90328;
+    font-size: 32px; }
+
+.servicos__img {
+  width: 74.8px;
+  height: 74.8px; }
