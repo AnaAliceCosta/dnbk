@@ -1,48 +1,107 @@
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   padding: 0;
   margin: 0;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+}
+
+.container {
+  width: 75vw;
+  margin: 0 auto;
+}
+
+.sobre {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.sobre .titulo {
+  color: #c90328;
+  font-size: 16px;
+  margin-top: 50px;
+}
+.sobre .subtitulo {
+  color: #121a47;
+  font-weight: bold;
+  font-size: 32px;
+}
+.sobre .texto {
+  color: #707070;
+  font-size: 16px;
+}
+.sobre .img {
+  width: 44vw;
+  padding-right: 2vw;
+}
+.sobre .input {
+  width: 100%;
+  height: 4.81vh;
+  margin: 5px;
+  border-radius: 4px;
+  border: solid 1px #707070;
+}
+.sobre .btn {
+  width: 55%;
+  margin-left: 46%;
+  border-radius: 4px;
+  height: 4.81vh;
+  text-align: center;
+  margin-top: 5%;
+  border: solid 1px #707070;
+  background-color: #c90328;
+  color: #ffffff;
+}
 
 .servicos__container {
-  margin: 0 auto; }
+  margin: 0 auto;
+}
 
 .servicos__intro {
   margin: 0 auto;
   width: 35vw;
-  text-align: center; }
-  .servicos__intro h5 {
-    color: #c90328;
-    text-transform: uppercase; }
-  .servicos__intro h2 {
-    font-size: 32px;
-    color: #121a47; }
+  text-align: center;
+}
+.servicos__intro h5 {
+  color: #c90328;
+  text-transform: uppercase;
+}
+.servicos__intro h2 {
+  font-size: 32px;
+  color: #121a47;
+}
 
 .servicos__divcartoes {
   display: flex;
   align-items: top;
-  justify-content: center; }
+  justify-content: center;
+}
 
 .servicos__cartao {
   font-size: 16px;
   color: #707070;
   width: 16vw;
-  margin: 30px; }
-  .servicos__cartao h4 {
-    font-size: 24px; }
+  margin: 30px;
+}
+.servicos__cartao h4 {
+  font-size: 24px;
+}
 
 .servicos__titulo__cartao {
   font-size: 24px;
-  color: #c90328; }
+  color: #c90328;
+}
 
 .servicos__suporte {
   margin: 0 auto;
   text-align: center;
-  width: 35vw; }
-  .servicos__suporte h2 {
-    color: #c90328;
-    font-size: 32px; }
+  width: 35vw;
+}
+.servicos__suporte h2 {
+  color: #c90328;
+  font-size: 32px;
+}
 
 .servicos__img {
   width: 74.8px;
-  height: 74.8px; }
+  height: 74.8px;
+}
