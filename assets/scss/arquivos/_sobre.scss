@@ -1,9 +1,12 @@
 .sobre {
     @include flex(center,space-around);
 
+    padding-bottom: 70px;
+
     .titulo {
         color: $cor-titulo-vermelho;
         font-size: $font-size-texto;  
+        text-transform: uppercase;
         margin-top: 50px;
     }
     .subtitulo{
