@@ -1,16 +1,44 @@
 .sobre {
-    @include flex(center,space-between);
+    @include flex(center,space-around);
 
     .titulo {
         color: $cor-titulo-vermelho;
-        
+        font-size: $font-size-texto;  
+        margin-top: 50px;
     }
     .subtitulo{
         color:$cor-secundaria;
         font-weight: bold;
+        font-size: $font-size-subtitulo;
     }
     .texto {
         color: $cor-texto;
+        font-size: $font-size-texto;
+    }
+
+    .img{
+        width: 44vw;
+        padding-right: 2vw;
+    }
+
+    .input{
+        width: 100%;
+        height: 4.81vh;
+        margin: 5px;
+        border-radius: 4px;
+        border: solid 1px $cor-texto;
+    }
+
+    .btn{
+        width: 55%;
+        margin-left: 46%;
+        border-radius: $border-radius;
+        height: $altura;
+        text-align: center;
+        margin-top: 5%;
+        border: $border $cor-texto;
+        background-color: $cor-titulo-vermelho;
+        color: $cor-primaria;
     }
 
     
