@@ -84,3 +84,10 @@ body {
   .servicos .servicos__img {
     width: 74.8px;
     height: 74.8px; }
+
+@media (max-width: 960px) {
+  .servicos__divcartoes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; } }
