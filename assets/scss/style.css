@@ -2,18 +2,22 @@ body {
   font-family: 'Open Sans', sans-serif;
   padding: 0;
   margin: 0;
-  box-sizing: border-box; }
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
 
 .titulo {
   text-align: center;
   font-size: 24px;
   font-weight: bold;
-  color: #ffffff; }
+  color: #ffffff;
+}
 
 .subtitulo {
   text-align: center;
   font-size: 32px;
-  color: #ffffff; }
+  color: #ffffff;
+}
 
 .btn {
   background-color: #ffffff;
@@ -21,18 +25,24 @@ body {
   border: none;
   font-size: 16px;
   color: #121A47;
-  font-weight: bold; }
+  font-weight: bold;
+}
 
 .banner {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(123, 124, 119, 0.66655)), to(rgba(123, 124, 119, 0.66655))), url("../img/hotel.png");
   background: linear-gradient(rgba(123, 124, 119, 0.66655), rgba(123, 124, 119, 0.66655)), url("../img/hotel.png");
   height: 758px;
   background-size: cover;
-  width: 100%; }
+  width: 100%;
+}
 
 .banner_texto {
   width: 35vw;
-  margin: 0 auto; }
+  margin: 0 auto;
+}
 
 .banner_sub {
   margin: 0 auto;
-  width: 85vw; }
+  width: 85vw;
+}
+/*# sourceMappingURL=style.css.map */
