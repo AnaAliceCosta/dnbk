@@ -11,8 +11,68 @@ body {
   background: #121A47;
   color: #ffffff; }
 
+.titulo {
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase; }
+
+.subtitulo_size {
+  width: 40vh; }
+
+.subtitulo {
+  font-size: 32px;
+  font-weight: bold; }
+
+.desc_size {
+  width: 48vh; }
+
+.titulo_desc {
+  font-size: 20px;
+  font-weight: bold; }
+
+.contato {
+  padding: 25px; }
+
 .form {
-  border-radius: 5%;
   display: flex;
   flex-direction: column;
-  padding: 10px; }
+  padding: 40px; }
+
+.item_form {
+  padding: 2px;
+  margin: 8px;
+  border-radius: 3px;
+  border: none;
+  height: 5vh; }
+
+.item_form-area {
+  padding: 2px;
+  margin: 8px;
+  border-radius: 3px;
+  border: none;
+  font-family: 'Open sans', sans-serif; }
+
+.botao {
+  width: 17vh;
+  margin-left: 19vh;
+  border: none;
+  border-radius: 3px;
+  padding: 10px 5px;
+  text-align: center;
+  background-color: #ffffff; }
+
+.logo_img {
+  width: 124px;
+  height: 124px;
+  position: absolute;
+  left: 58vh;
+  top: 67vh; }
+
+.vlt__topo {
+  width: 6vh;
+  position: absolute;
+  right: 38vh;
+  top: 70vh; }
+
+.rodape {
+  text-align: center; }
