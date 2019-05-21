@@ -8,10 +8,17 @@ body {
   background-color: #121A47;
   height: 80px;
   width: 100%;
-  position: fixed; }
+  position: fixed;
+  display: flex;
+  align-items: auto;
+  justify-content: space-between; }
   .navbar .imagem {
     position: relative;
     top: 19px;
     left: 100px;
     width: 124px;
     height: 124px; }
+
+@media (max-width: 960) {
+  .menu_hamburguer {
+    display: inline-block; } }

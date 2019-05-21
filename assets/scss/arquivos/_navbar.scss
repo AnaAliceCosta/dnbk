@@ -3,11 +3,18 @@
     height:80px;
     width:100%;
     position:fixed;
+    @include flex(auto,space-between);
     .imagem{
         position: relative;
         top:19px;
         left:100px;
         width:124px;
         height: 124px;
+    }
+    
+}   
+@media (max-width:$largura-mobile){
+    .menu_hamburguer{
+        display: inline-block;
     }
 }
