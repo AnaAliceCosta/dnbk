@@ -1,27 +1,28 @@
-
+.banner{
+    background-image: url("../img/hotel.jpeg");
+    height: 500px;
+    background-size: cover;
+    width: 100%;
+    background-position: center;
+    
+    }
  
  .titulo {
     text-align: center;
     font-size:$font-size-descricao;
     font-weight: bold;
-    // position: absolute; 
-    // top: 218px; 
-    // left: 0; 
-    // width: 100%;
     color:$branco;
-
+    width: 35vw;
+    margin: 0 auto;
  }
 
  
-  
  .subtitulo {
     text-align: center; 
     font-size: $font-size-subtitulo;
-    // position: absolute; 
-    // top: 325px; 
-    // left: 0; 
-    // width: 100%;
     color:$branco;
+    margin: 0 auto;
+    width: 80vw;
 }
   
 .btn {
@@ -29,28 +30,10 @@
     border-radius: 1px;
     border: none;
     font-size:$font-size-texto;
-    // padding: 18px 60px;
     color: $cor-secundaria;
     font-weight: bold;   
 
 }
-.banner{
- background: linear-gradient(rgba(123,124,119,.66655),rgba(123,124,119,.66655)), url("../img/hotel.png");
-height: 758px;
-background-size: cover;
-width: 100%;
-
-}
-
-.banner_texto{
-    width: 35vw;
-    margin: 0 auto;
-}
-
-.banner_sub{
-    margin: 0 auto;
-    width: 85vw;
 
 
 
-}

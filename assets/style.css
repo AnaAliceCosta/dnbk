@@ -4,16 +4,27 @@ body {
   margin: 0;
   box-sizing: border-box; }
 
+.banner {
+  background-image: url("../img/hotel.jpeg");
+  height: 500px;
+  background-size: cover;
+  width: 100%;
+  background-position: center; }
+
 .titulo {
   text-align: center;
   font-size: 24px;
   font-weight: bold;
-  color: #ffffff; }
+  color: #ffffff;
+  width: 35vw;
+  margin: 0 auto; }
 
 .subtitulo {
   text-align: center;
   font-size: 32px;
-  color: #ffffff; }
+  color: #ffffff;
+  margin: 0 auto;
+  width: 80vw; }
 
 .btn {
   background-color: #ffffff;
@@ -22,17 +33,3 @@ body {
   font-size: 16px;
   color: #121A47;
   font-weight: bold; }
-
-.banner {
-  background: linear-gradient(rgba(123, 124, 119, 0.66655), rgba(123, 124, 119, 0.66655)), url("../img/hotel.png");
-  height: 758px;
-  background-size: cover;
-  width: 100%; }
-
-.banner_texto {
-  width: 35vw;
-  margin: 0 auto; }
-
-.banner_sub {
-  margin: 0 auto;
-  width: 85vw; }
