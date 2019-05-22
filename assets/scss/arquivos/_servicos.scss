@@ -1,0 +1,63 @@
+// .servicos__container {
+//   margin: 0 auto;
+// }
+
+.servicos {
+  padding-top: 70px;
+
+  background-color: $cinza-claro;
+  .servicos__intro {
+    margin: 0 auto;
+    width: 35vw;
+    text-align: center;
+    h5 {
+      font-size: $font-size-texto;
+      color: $cor-titulo-vermelho;
+      text-transform: uppercase;
+    }
+    h2 {
+      font-size: $font-size-subtitulo;
+      color: $cor-secundaria;
+    }
+  }
+
+  .servicos__divcartoes {
+    @include flex(top, center);
+  }
+
+  .servicos__cartao {
+    @include descricao;
+    width: 16vw;
+    margin: 30px;
+  }
+
+  .servicos__titulo__cartao {
+    font-size: $font-size-descricao;
+    color: $cor-titulo-vermelho;
+  }
+
+  .servicos__suporte {
+    margin: 0 auto;
+    text-align: center;
+    width: 35vw;
+    h2 {
+      color: $cor-titulo-vermelho;
+      font-size: $font-size-subtitulo;
+    }
+  }
+
+  .servicos__img {
+    width: 74.8px;
+    height: 74.8px;
+  }
+
+  .servicos__curva {
+    clip-path: polygon(0 100%, 100% 0, 100% 100%, 0% 100%);
+    width: 100%;
+    height: 100px;
+    background: #121a47;
+    position: relative;
+    bottom: -1px;
+    margin-top: 40px;
+  }
+}

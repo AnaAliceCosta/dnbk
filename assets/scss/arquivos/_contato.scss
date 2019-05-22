@@ -1,5 +1,5 @@
 .orcamento {
-    @include flex (center, center);
+    @include flex (end, center);
     background: $azul;
     color: $branco;
 }
@@ -23,16 +23,20 @@
 .titulo_desc {
     font-size: 20px;
     font-weight: bold;
+    margin: 1px;
 }
-
+.titulo__contato{
+    padding-bottom: 15px;
+}
 .contato {
-   padding: 25px;
+    margin-right: 25vh;
+
 }
 
 .form {
     display: flex;
     flex-direction: column;
-    padding: 40px; 
+    padding: 21px; 
 }
 .item_form {
     padding: 2px;
@@ -52,27 +56,12 @@
 .botao {
     width: 17vh;
     margin-left: 19vh;
-    border: none;
-    border-radius: 3px;
-    padding: 10px 5px;
+    border: $border;
+    border-radius: $border-radius;
+    height: $altura;
     text-align: center;
-    background-color: #ffffff;
+    background-color: $branco;
+    font-weight: bold;
+    margin-top: 3%;
 }
 
-.logo_img {
-    width: 124px;
-    height: 124px;
-    position: absolute;
-    left: 58vh;
-    top: 67vh;
-}
-
-.vlt__topo {
-    width: 6vh;
-    position: absolute;
-    right: 38vh;
-    top: 70vh;
-}
-.rodape {
-    text-align: center;
-}
