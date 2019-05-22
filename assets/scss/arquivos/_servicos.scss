@@ -22,13 +22,14 @@
   }
 
   .servicos__divcartoes {
-    @include flex(top, center);
+    @include flex(flex-start, space-around);
+
   }
 
   .servicos__cartao {
     @include descricao;
-    width: 16vw;
-    margin: 30px;
+
+
   }
 
   .servicos__titulo__cartao {

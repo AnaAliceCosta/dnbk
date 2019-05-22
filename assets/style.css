@@ -61,13 +61,14 @@ body {
       color: #121a47; }
   .servicos .servicos__divcartoes {
     display: flex;
-    align-items: top;
-    justify-content: center; }
+    align-items: flex-start;
+    justify-content: space-around; }
   .servicos .servicos__cartao {
     font-size: 16px;
     color: #707070;
     width: 16vw;
-    margin: 30px; }
+    margin-top: 50px;
+    margin-bottom: 50px; }
     .servicos .servicos__cartao h4 {
       font-size: 24px; }
   .servicos .servicos__titulo__cartao {
