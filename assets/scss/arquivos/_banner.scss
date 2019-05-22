@@ -9,11 +9,12 @@
 
     .titulo {
         text-align: center;
-        font-size: $font-size-descricao;
+        font-size: $font-size-titulo;
         font-weight: bold;
         color: $branco;
-        width: 35vw;
-        margin-top: 0;
+        width: 59vw;
+        margin: 0 auto;
+        padding-top: 70px;
     }
 
 
@@ -26,12 +27,14 @@
     }
 
     .btn {
+        width: 17vh;
+        border: $border;
+        border-radius: $border-radius;
+        height: $altura;
+        text-align: center;
         background-color: $branco;
-        border-radius: 1px;
-        border: none;
-        font-size: $font-size-texto;
-        color: $cor-secundaria;
         font-weight: bold;
-
+        margin-top: 3%;
+        margin: 0 auto;
     }
 }
