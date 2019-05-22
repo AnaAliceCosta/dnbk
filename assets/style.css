@@ -4,6 +4,10 @@ body {
   margin: 0;
   box-sizing: border-box; }
 
+.container {
+  width: 75vw;
+  margin: 0 auto; }
+
 .banner {
   background-image: url("../img/hotel.jpeg");
   height: 500px;
@@ -33,3 +37,80 @@ body {
   font-size: 16px;
   color: #121A47;
   font-weight: bold; }
+
+.sobre {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-bottom: 70px; }
+  .sobre .titulo {
+    color: #c90328;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-top: 50px; }
+  .sobre .subtitulo {
+    color: #121A47;
+    font-weight: bold;
+    font-size: 32px; }
+  .sobre .texto {
+    color: #707070;
+    font-size: 16px; }
+  .sobre .img {
+    width: 44vw;
+    padding-right: 2vw; }
+  .sobre .input {
+    width: 100%;
+    height: 4.81vh;
+    margin: 5px;
+    border-radius: 4px;
+    border: solid 1px #707070; }
+  .sobre .btn {
+    width: 55%;
+    margin-left: 46%;
+    border-radius: 4px;
+    height: 4.81vh;
+    text-align: center;
+    margin-top: 5%;
+    border: solid 1px #707070;
+    background-color: #c90328;
+    color: #ffffff; }
+
+.servicos {
+  padding-top: 70px;
+  background-color: #fafafa; }
+  .servicos .servicos__intro {
+    margin: 0 auto;
+    width: 35vw;
+    text-align: center; }
+    .servicos .servicos__intro h5 {
+      font-size: 16px;
+      color: #c90328;
+      text-transform: uppercase; }
+    .servicos .servicos__intro h2 {
+      font-size: 32px;
+      color: #121A47; }
+  .servicos .servicos__divcartoes {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around; }
+  .servicos .servicos__cartao {
+    font-size: 16px;
+    color: #707070;
+    width: 16vw;
+    margin-top: 50px;
+    margin-bottom: 50px; }
+    .servicos .servicos__cartao h4 {
+      font-size: 24px; }
+  .servicos .servicos__titulo__cartao {
+    font-size: 24px;
+    color: #c90328; }
+  .servicos .servicos__suporte {
+    margin: 0 auto;
+    text-align: center;
+    width: 35vw; }
+    .servicos .servicos__suporte h2 {
+      color: #c90328;
+      font-size: 32px; }
+  .servicos .servicos__img {
+    width: 74.8px;
+    height: 74.8px; }
