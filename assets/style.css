@@ -191,6 +191,13 @@ body {
     font-weight: bold;
     margin-top: 3%; }
 
+@media (max-width: 960px) {
+  .orcamento {
+    display: flex;
+    flex-direction: column; }
+    .orcamento .botao {
+      margin-left: 29vh; } }
+
 .rodape {
   text-align: center;
   position: relative; }
@@ -200,11 +207,20 @@ body {
     display: inline-block;
     position: absolute;
     left: 10.4vw;
-    bottom: 11px; }
+    bottom: 2vh; }
   .rodape p {
     display: inline-block; }
   .rodape .vlt__topo {
     width: 6vh;
     position: absolute;
-    right: 6px;
-    bottom: 34px; }
+    right: 2vh;
+    bottom: 5vh; }
+
+@media (max-width: 960px) {
+  .rodape .logo_img {
+    display: none;
+    position: unset; }
+  .rodape .vlt__topo {
+    width: 9vh;
+    right: -4vh;
+    bottom: 6vh; } }
