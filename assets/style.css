@@ -27,13 +27,42 @@ body {
   .menu_hamburguer {
     display: inline-block; } }
 
+.banner {
+  background-image: url("../img/banner.jpeg");
+  height: 500px;
+  background-size: cover;
+  width: 100%;
+  background-position: center; }
+  .banner .titulo {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+    width: 35vw;
+    margin-top: 0; }
+  .banner .subtitulo {
+    text-align: center;
+    font-size: 32px;
+    color: #ffffff;
+    margin: 0 auto;
+    width: 80vw; }
+  .banner .btn {
+    background-color: #ffffff;
+    border-radius: 1px;
+    border: none;
+    font-size: 16px;
+    color: #121a47;
+    font-weight: bold; }
+
 .sobre {
   display: flex;
   align-items: center;
-  justify-content: space-around; }
+  justify-content: space-around;
+  padding-bottom: 70px; }
   .sobre .titulo {
     color: #c90328;
     font-size: 16px;
+    text-transform: uppercase;
     margin-top: 50px; }
   .sobre .subtitulo {
     color: #121a47;
@@ -62,45 +91,120 @@ body {
     background-color: #c90328;
     color: #ffffff; }
 
-.servicos__container {
-  margin: 0 auto; }
+.servicos {
+  padding-top: 70px;
+  background-color: #fafafa; }
+  .servicos .servicos__intro {
+    margin: 0 auto;
+    width: 35vw;
+    text-align: center; }
+    .servicos .servicos__intro h5 {
+      font-size: 16px;
+      color: #c90328;
+      text-transform: uppercase; }
+    .servicos .servicos__intro h2 {
+      font-size: 32px;
+      color: #121a47; }
+  .servicos .servicos__divcartoes {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around; }
+  .servicos .servicos__cartao {
+    font-size: 16px;
+    color: #707070;
+    width: 16vw;
+    margin-top: 50px;
+    margin-bottom: 50px; }
+    .servicos .servicos__cartao h4 {
+      font-size: 24px; }
+  .servicos .servicos__titulo__cartao {
+    font-size: 24px;
+    color: #c90328; }
+  .servicos .servicos__suporte {
+    margin: 0 auto;
+    text-align: center;
+    width: 35vw; }
+    .servicos .servicos__suporte h2 {
+      color: #c90328;
+      font-size: 32px; }
+  .servicos .servicos__img {
+    width: 74.8px;
+    height: 74.8px; }
+  .servicos .servicos__curva {
+    clip-path: polygon(0 100%, 100% 0, 100% 100%, 0% 100%);
+    width: 100%;
+    height: 100px;
+    background: #121a47;
+    position: relative;
+    bottom: -1px;
+    margin-top: 40px; }
 
-.servicos__intro {
-  margin: 0 auto;
-  width: 35vw;
-  text-align: center; }
-  .servicos__intro h5 {
-    color: #c90328;
-    text-transform: uppercase; }
-  .servicos__intro h2 {
-    font-size: 32px;
-    color: #121a47; }
-
-.servicos__divcartoes {
+.orcamento {
   display: flex;
-  align-items: top;
-  justify-content: center; }
+  align-items: end;
+  justify-content: center;
+  background: #121a47;
+  color: #ffffff; }
+  .orcamento .titulo {
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase; }
+  .orcamento .subtitulo_size {
+    width: 40vh; }
+  .orcamento .subtitulo {
+    font-size: 32px;
+    font-weight: bold; }
+  .orcamento .desc_size {
+    width: 48vh; }
+  .orcamento .titulo_desc {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 1px; }
+  .orcamento .titulo__contato {
+    padding-bottom: 15px; }
+  .orcamento .contato {
+    margin-right: 25vh; }
+  .orcamento .form {
+    display: flex;
+    flex-direction: column;
+    padding: 21px; }
+  .orcamento .item_form {
+    padding: 2px;
+    margin: 8px;
+    border-radius: 3px;
+    border: none;
+    height: 5vh; }
+  .orcamento .item_form-area {
+    padding: 2px;
+    margin: 8px;
+    border-radius: 3px;
+    border: none;
+    font-family: 'Open sans', sans-serif; }
+  .orcamento .botao {
+    width: 17vh;
+    margin-left: 19vh;
+    border: solid 1px;
+    border-radius: 4px;
+    height: 4.81vh;
+    text-align: center;
+    background-color: #ffffff;
+    font-weight: bold;
+    margin-top: 3%; }
 
-.servicos__cartao {
-  font-size: 16px;
-  color: #707070;
-  width: 16vw;
-  margin: 30px; }
-  .servicos__cartao h4 {
-    font-size: 24px; }
-
-.servicos__titulo__cartao {
-  font-size: 24px;
-  color: #c90328; }
-
-.servicos__suporte {
-  margin: 0 auto;
+.rodape {
   text-align: center;
-  width: 35vw; }
-  .servicos__suporte h2 {
-    color: #c90328;
-    font-size: 32px; }
-
-.servicos__img {
-  width: 74.8px;
-  height: 74.8px; }
+  position: relative; }
+  .rodape .logo_img {
+    width: 124px;
+    height: 124px;
+    display: inline-block;
+    position: absolute;
+    left: 10.4vw;
+    bottom: 11px; }
+  .rodape p {
+    display: inline-block; }
+  .rodape .vlt__topo {
+    width: 6vh;
+    position: absolute;
+    right: 6px;
+    bottom: 34px; }
