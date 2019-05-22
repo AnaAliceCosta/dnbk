@@ -11,17 +11,29 @@ body {
 .navbar {
   background-color: #121a47;
   height: 80px;
-  width: 100%;
-  position: fixed;
-  display: flex;
-  align-items: auto;
-  justify-content: space-between; }
+  width: 100vw;
+  position: fixed; }
   .navbar .imagem {
-    position: relative;
-    top: 19px;
-    left: 100px;
+    margin-top: 19px;
     width: 124px;
     height: 124px; }
+  .navbar .lista_links {
+    list-style-type: none;
+    display: inline-block;
+    position: absolute;
+    top: 4px;
+    right: 12.5vw;
+    text-transform: uppercase; }
+    .navbar .lista_links li + li {
+      margin-left: 30px; }
+    .navbar .lista_links .links {
+      display: inline-block;
+      color: #ffffff; }
+    .navbar .lista_links .btn_orcamento {
+      padding: 10px 30px 10px 30px;
+      background-color: #ffffff;
+      border-radius: 4px;
+      color: #121a47; }
 
 @media (max-width: 960) {
   .menu_hamburguer {
