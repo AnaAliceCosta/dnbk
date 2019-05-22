@@ -29,7 +29,7 @@ body {
 
 .banner {
   background-image: url("../img/banner.jpeg");
-  height: 500px;
+  height: 530px;
   background-size: cover;
   width: 100%;
   background-position: center; }
@@ -47,16 +47,32 @@ body {
     color: #ffffff;
     margin: 0 auto;
     width: 80vw; }
-  .banner .btn {
-    width: 17vh;
-    border: solid 1px;
-    border-radius: 4px;
-    height: 4.81vh;
+  .banner .botao {
     text-align: center;
-    background-color: #ffffff;
-    font-weight: bold;
-    margin-top: 3%;
-    margin: 0 auto; }
+    margin-top: 25px; }
+    .banner .botao .btn {
+      width: 17vh;
+      border: solid 1px;
+      border-radius: 4px;
+      height: 4.81vh;
+      text-align: center;
+      background-color: #ffffff;
+      font-weight: bold;
+      margin: 0 auto;
+      padding: 10px 50px;
+      text-decoration: none;
+      border: none;
+      font-size: 12px; }
+  @media (max-width: 960px) {
+    .banner .titulo {
+      width: 60vw;
+      font-size: 15px; } }
+  .banner .subtitulo {
+    width: 60vw;
+    font-size: 15px; }
+  .banner .btn {
+    padding: 8px 10px;
+    font-size: 10px; }
 
 .sobre {
   display: flex;
