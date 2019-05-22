@@ -8,36 +8,6 @@ body {
   width: 75vw;
   margin: 0 auto; }
 
-.banner {
-  background-image: url("../img/hotel.jpeg");
-  height: 500px;
-  background-size: cover;
-  width: 100%;
-  background-position: center; }
-
-.titulo {
-  text-align: center;
-  font-size: 24px;
-  font-weight: bold;
-  color: #ffffff;
-  width: 35vw;
-  margin: 0 auto; }
-
-.subtitulo {
-  text-align: center;
-  font-size: 32px;
-  color: #ffffff;
-  margin: 0 auto;
-  width: 80vw; }
-
-.btn {
-  background-color: #ffffff;
-  border-radius: 1px;
-  border: none;
-  font-size: 16px;
-  color: #121A47;
-  font-weight: bold; }
-
 .sobre {
   display: flex;
   align-items: center;
@@ -49,7 +19,7 @@ body {
     text-transform: uppercase;
     margin-top: 50px; }
   .sobre .subtitulo {
-    color: #121A47;
+    color: #121a47;
     font-weight: bold;
     font-size: 32px; }
   .sobre .texto {
@@ -88,7 +58,7 @@ body {
       text-transform: uppercase; }
     .servicos .servicos__intro h2 {
       font-size: 32px;
-      color: #121A47; }
+      color: #121a47; }
   .servicos .servicos__divcartoes {
     display: flex;
     align-items: flex-start;
