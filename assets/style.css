@@ -40,10 +40,10 @@ body {
     color: #ffffff;
     width: 59vw;
     margin: 0 auto;
-    padding-top: 70px; }
+    padding-top: 17vh; }
   .banner .subtitulo {
     text-align: center;
-    font-size: 32px;
+    font-size: 24px;
     color: #ffffff;
     margin: 0 auto;
     width: 80vw; }
@@ -63,16 +63,17 @@ body {
       text-decoration: none;
       border: none;
       font-size: 12px; }
-  @media (max-width: 960px) {
-    .banner .titulo {
-      width: 60vw;
-      font-size: 15px; } }
-  .banner .subtitulo {
-    width: 60vw;
+
+@media (max-width: 960px) {
+  .titulo {
+    width: 65vw;
     font-size: 15px; }
-  .banner .btn {
+  .subtitulo {
+    width: 60vw;
+    font-size: 18px; }
+  .btn {
     padding: 8px 10px;
-    font-size: 10px; }
+    font-size: 10px; } }
 
 .sobre {
   display: flex;

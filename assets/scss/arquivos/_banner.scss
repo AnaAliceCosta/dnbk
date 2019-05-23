@@ -3,9 +3,7 @@
     height: 530px;
     background-size: cover;
     width: 100%;
-    background-position: center;
-
-
+    background-position: center; 
 
     .titulo {
         text-align: center;
@@ -14,19 +12,15 @@
         color: $branco;
         width: 59vw;
         margin: 0 auto;
-        padding-top: 70px;
+        padding-top: 17vh;
     }
-
-
     .subtitulo {
         text-align: center;
-        font-size: $font-size-subtitulo;
+        font-size: $font-size-descricao;
         color: $branco;
         margin: 0 auto;
         width: 80vw;
     }
-
-   
 
     .botao{
         text-align: center;
@@ -40,7 +34,6 @@
             text-align: center;
             background-color: $branco;
             font-weight: bold;
-            // margin-top: 3%;
             margin: 0 auto;
             padding: 10px 50px;
             text-decoration: none;
@@ -49,17 +42,19 @@
         }
     }
 
+}
 
-    @media (max-width: 960px){
+
+@media (max-width: 960px){
         .titulo{
-            width: 60vw;
+            width: 65vw;
             font-size: 15px;
         }
-    }
+    
         
         .subtitulo{
             width: 60vw;
-            font-size: 15px;
+            font-size: 18px;
     
         }
 
@@ -69,15 +64,7 @@
             font-size:10px;
 
         }
-    }
+}
     
 
 
-// @media (max-width: 960px){
-//     .titulo{
-//         width: 30vw;
-//         font-size: 15px;
-
-//     }
-
-// 
