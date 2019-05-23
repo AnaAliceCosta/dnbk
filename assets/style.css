@@ -122,6 +122,9 @@ body {
   background-color: #fafafa; }
   .servicos .servicos__paragrafo {
     color: #707070; }
+  .servicos .servicos__container {
+    width: 75vw;
+    margin: 0 auto; }
   .servicos .servicos__intro {
     margin: 0 auto;
     width: 60vw;
@@ -176,10 +179,10 @@ body {
     flex-direction: column; }
   .servicos .servicos__cartao {
     text-align: center;
-    width: 80vw; }
+    width: 75vw; }
   .servicos .servicos__intro {
     margin: 0 auto;
-    width: 80vw;
+    width: 75vw;
     text-align: center; }
     .servicos .servicos__intro h5 {
       font-size: 12px;
@@ -191,7 +194,7 @@ body {
   .servicos .servicos__suporte {
     margin: 0 auto;
     text-align: center;
-    width: 85vw; } }
+    width: 75vw; } }
 
 .orcamento {
   display: flex;
