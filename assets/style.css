@@ -82,7 +82,7 @@ body {
     left: 0;
     transition: 100ms; }
   .escondido {
-    left: -60vw;
+    left: -70vw;
     transition: 10oms; }
   .fechar {
     width: 100%;
