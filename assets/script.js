@@ -31,4 +31,11 @@
     hmb.addEventListener("click", function(){
         tougleMenu()
     });
+    document.addEventListener("click",function(event){
+        if(event.target != menu && event.target != hmb ){
+            escondeMenu();
+        }
+        
+
+    })
 })();
