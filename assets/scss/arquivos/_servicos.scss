@@ -1,12 +1,11 @@
-// .servicos__container {
-//   margin: 0 auto;
-// }
-
 .servicos {
-
   .servicos__paragrafo {
     color: #707070;
+  }
 
+  .servicos__container {
+    width: 75vw;
+    margin: 0 auto;
   }
 
   padding-top: 60px;
@@ -78,31 +77,30 @@
 
     .servicos__cartao {
       text-align: center;
-      width: 80vw;
-    }
-  
-
-  .servicos__intro {
-    margin: 0 auto;
-    width: 80vw;
-    text-align: center;
-
-    h5 {
-      font-size: $font-size-texto-resp;
-      color: $cor-titulo-vermelho;
-      text-transform: uppercase;
+      width: 75vw;
     }
 
-    h2 {
-      font-size: $font-size-subtitulo-resp;
-      color: $cor-secundaria;
+    .servicos__intro {
+      margin: 0 auto;
+      width: 75vw;
+      text-align: center;
+
+      h5 {
+        font-size: $font-size-texto-resp;
+        color: $cor-titulo-vermelho;
+        text-transform: uppercase;
+      }
+
+      h2 {
+        font-size: $font-size-subtitulo-resp;
+        color: $cor-secundaria;
+      }
+    }
+
+    .servicos__suporte {
+      margin: 0 auto;
+      text-align: center;
+      width: 75vw;
     }
   }
-
-  .servicos__suporte {
-    margin: 0 auto;
-    text-align: center;
-    width: 85vw;
-  }
-}
 }
