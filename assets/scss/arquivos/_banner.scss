@@ -12,14 +12,14 @@
         color: $branco;
         width: 59vw;
         margin: 0 auto;
-        padding-top: 17vh;
+        padding-top: 25vh;
     }
     .subtitulo {
         text-align: center;
         font-size: $font-size-descricao;
         color: $branco;
         margin: 0 auto;
-        width: 80vw;
+        width: 58vw;
     }
 
     .botao{
@@ -46,24 +46,26 @@
 
 
 @media (max-width: 960px){
+    .banner{
+        height: 95vh;
         .titulo{
             width: 65vw;
             font-size: 15px;
         }
-    
-        
         .subtitulo{
             width: 60vw;
             font-size: 18px;
-    
         }
 
-   
-        .btn{
-            padding: 8px 10px;
-            font-size:10px;
-
+        .botao{
+             .btn{
+            
+            font-size:20px;
+            padding: 10px 30px 10px 30px;
         }
+        }
+
+    }   
 }
     
 
