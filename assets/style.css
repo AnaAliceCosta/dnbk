@@ -12,14 +12,11 @@ body {
   background-color: #121a47;
   height: 80px;
   width: 100vw;
-  position: fixed;
-  z-index: 10; }
+  position: fixed; }
   .navbar .imagem {
     margin-top: 19px;
     width: 124px;
     height: 124px; }
-  .navbar .menu_hamburguer {
-    display: none; }
   .navbar .lista_links {
     list-style-type: none;
     display: inline-block;
@@ -37,53 +34,10 @@ body {
       background-color: #ffffff;
       border-radius: 4px;
       color: #121a47; }
-  .navbar .fechar {
-    display: none !important; }
 
-@media (max-width: 960px) {
-  .navbar .lista_links {
-    list-style-type: none;
-    display: block;
-    position: fixed;
-    top: 50px;
-    text-transform: uppercase;
-    background-color: #121a47;
-    width: 50vw; }
-    .navbar .lista_links .links {
-      color: #ffffff;
-      display: block; }
-    .navbar .lista_links li + li {
-      margin-left: 0px;
-      margin-top: 30px; }
-    .navbar .lista_links .btn_orcamento {
-      width: 50%;
-      padding: 10px 5px;
-      background-color: #ffffff;
-      border-radius: 4px;
-      color: #121a47;
-      margin-bottom: 50px; }
-  .navbar .imagem {
-    margin-top: 19px;
-    margin-left: 25vw;
-    width: 124px;
-    height: 124px;
-    z-index: 30; }
-  .navbar .menu_hamburguer {
-    vertical-align: top;
-    margin-top: 30px;
-    margin-left: 20px;
-    display: inline-block;
-    height: 25px; }
-  .visivel {
-    left: 0;
-    transition: 100ms; }
-  .escondido {
-    left: -60vw;
-    transition: 10oms; }
-  .fechar {
-    width: 100%;
-    text-align: end;
-    display: block; } }
+@media (max-width: 960) {
+  .menu_hamburguer {
+    display: inline-block; } }
 
 .banner {
   background-image: url("../img/banner.jpeg");
