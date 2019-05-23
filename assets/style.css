@@ -198,7 +198,8 @@ body {
   align-items: end;
   justify-content: center;
   background: #121a47;
-  color: #ffffff; }
+  color: #ffffff;
+  padding-bottom: 55px; }
   .orcamento .titulo {
     font-size: 16px;
     font-weight: bold;
@@ -220,8 +221,7 @@ body {
     margin-right: 25vh; }
   .orcamento .form {
     display: flex;
-    flex-direction: column;
-    padding: 21px; }
+    flex-direction: column; }
   .orcamento .item_form {
     padding: 2px;
     margin: 8px;
@@ -313,8 +313,7 @@ body {
 
 @media (max-width: 960px) {
   .rodape .logo_img {
-    display: none;
-    position: unset; }
+    display: none; }
   .rodape .vlt__topo {
     width: 9vh;
     right: -4vh;

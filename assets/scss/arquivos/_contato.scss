@@ -2,6 +2,7 @@
         @include flex (end, center);
         background: $azul;
         color: $branco;
+        padding-bottom: 55px;
     .titulo{
         font-size: $font-size-texto;
         font-weight: bold;
@@ -34,7 +35,6 @@
      .form {
          display: flex;
          flex-direction: column;
-         padding: 21px; 
      }
      .item_form {
          padding: 2px;
@@ -126,6 +126,7 @@
         }
 
     }
+   
 
     @media(max-width: 960px) {
         .orcamento {
