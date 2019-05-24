@@ -66,11 +66,14 @@
 @media (max-width: $largura-mobile) {
 
     .navbar {
+        background-color: $azul;
+        height: 80px;
+        position: relative;
+        width: 100vw;
 
         .lista_links {
             list-style-type: none;
             display: block;
-            position: fixed;
             top: 50px;
             text-transform: uppercase;
             background-color: $cor-secundaria;
@@ -121,7 +124,7 @@
     }
 
     .escondido {
-        left: -60vw;
+        left: -75vw;
         transition: 10oms;
     }
 

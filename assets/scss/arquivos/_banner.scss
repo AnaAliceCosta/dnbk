@@ -1,9 +1,9 @@
 .banner {
     background-image: url("../img/banner.jpeg");
-    height: 530px;
+    height: 80vh;
     background-size: cover;
     width: 100%;
-    background-position: center; 
+    background-position: center;
 
     .titulo {
         text-align: center;
@@ -14,6 +14,7 @@
         margin: 0 auto;
         padding-top: 25vh;
     }
+
     .subtitulo {
         text-align: center;
         font-size: $font-size-descricao;
@@ -22,10 +23,10 @@
         width: 58vw;
     }
 
-    .botao{
+    .botao {
         text-align: center;
         margin-top: 25px;
-        
+
         .btn {
             width: 17vh;
             border: $border;
@@ -37,36 +38,36 @@
             margin: 0 auto;
             padding: 10px 50px;
             text-decoration: none;
-            border:none;
-            font-size:12px;
+            border: none;
+            font-size: 18px;
+            color: $azul;
         }
     }
 
 }
 
 
-@media (max-width: 960px){
-    .banner{
+@media (max-width: 960px) {
+    .banner {
         height: 95vh;
-        .titulo{
+
+        .titulo {
             width: 65vw;
             font-size: 15px;
         }
-        .subtitulo{
+
+        .subtitulo {
             width: 60vw;
             font-size: 18px;
         }
 
-        .botao{
-             .btn{
-            
-            font-size:20px;
-            padding: 10px 30px 10px 30px;
-        }
+        .botao {
+            .btn {
+
+                font-size: 18px;
+                padding: 10px 30px 10px 30px;
+            }
         }
 
-    }   
+    }
 }
-    
-
-

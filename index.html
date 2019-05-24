@@ -11,21 +11,29 @@
 </head>
 
 <body>
+  <!--barra de navegacao -->
   <nav class='navbar'>
+    <!--icone menu hamburguer-->
     <img src="img/menu.svg" alt="Botão menu" class='menu_hamburguer'>
+
     <div class='container'>
+      <!--Logotipo-->
       <img src="img/Logo_DNBK.png" alt="Logo Consultoria BNDK" class='imagem'>
+      <!--final Logotipo-->
+      <!--menu-->
       <ul class='lista_links escondido'>
         <li class='links'><a href="#sobre">A DNBK</a></li>
         <li class='links'><a href="#servicos">Serviços</a></li>
         <li class='links'><a href="#suporte">Suporte</a></li>
         <li class='links btn_orcamento'><a href="#orcamento">Solicite um Orçamento</a></li>
       </ul>
+      <!-- final do menu-->
     </div>
   </nav>
+  <!-- final da barra de navegacao -->
   <header>
     <div class="banner">
-      <div class="banner container">
+      <div class="container">
         <div class="titulo">
           <h1>Entender o seu hotel para
             otimizar seus resultados</h1>
@@ -75,7 +83,7 @@
 
   <!-- section serviços -->
   <section id="servicos" class="servicos">
-    <div class="servicos__container">
+    <div class="servicos__container container">
       <div class="servicos__intro">
         <h5>Nossos Serviços</h5>
         <h2>
@@ -161,7 +169,7 @@
         </div>
       </div>
       <!-- Suporte -->
-      <div id="suporte" class="servicos__suporte">
+      <div id="suporte" class="servicos__suporte container">
         <h2>Suporte</h2>
         <p class="servicos__paragrafo">
           Estamos sempre prontos para tirar as dúvidas e ajudar no
@@ -176,37 +184,38 @@
     <div class="servicos__curva"></div>
   </section>
 
-
-
   <!-- Orçamento -->
-  <section id="orcamento" class="orcamento">
-    <div class="orcamento container">
-      <div class="contato">
-        <h4 class="titulo">Solicite um orçamento</h4>
-        <div class="subtitulo_size">
-          <p class="subtitulo">A ajuda que faltava para o seu hotel</p>
+  <section id="orcamento">
+    <div class="azul">
+      <div class="container orcamento">
+        <div class="contato">
+          <h4 class="titulo">Solicite um orçamento</h4>
+          <div class="subtitulo_size">
+            <p class="subtitulo">A ajuda que faltava para o seu hotel</p>
+          </div>
+          <p class="desc_size">Entre em contato para conhecer seus clientes e hóspedes e alavancar as suas vendas.</p>
+          <div class="titulo__contato">
+            <p class="titulo_desc">Whatsapp:</p>
+            <span>(011) 99101-9024</span>
+          </div>
+          <div class="titulo__contato">
+            <p class="titulo_desc">Fale conosco:</p>
+            <span>contato@dnbkconsultoria.com.br</span>
+          </div>
         </div>
-        <p class="desc_size">Entre em contato para conhecer seus clientes e hóspedes e alavancar as suas vendas.</p>
-        <div class="titulo__contato">
-          <p class="titulo_desc">Whatsapp:</p>
-          <span>(011) 99101-9024</span>
+
+        <!-- Formulário de orçamento -->
+        <div class="fomulario container">
+          <form class="form">
+            <input type="text" class="item_form" placeholder="Nome completo">
+            <input type="text" class="item_form" placeholder="Empresa">
+            <input type="text" class="item_form" placeholder="E-mail profissional">
+            <input type="text" class="item_form" placeholder="Telefone">
+            <input type="text" class="item_form" placeholder="Motivo do contato">
+            <textarea class="item_form-area" placeholder="Digite sua mensagem aqui" rows="6" cols="33"></textarea>
+            <input class="botao" type="submit" value="Enviar">
+          </form>
         </div>
-        <div class="titulo__contato">
-          <p class="titulo_desc">Fale conosco:</p>
-          <span>contato@dnbkconsultoria.com.br</span>
-        </div>
-      </div>
-      <!-- Formulário de orçamento -->
-      <div class="fomulario">
-        <form class="form">
-          <input type="text" class="item_form" placeholder="Nome completo">
-          <input type="text" class="item_form" placeholder="Empresa">
-          <input type="text" class="item_form" placeholder="E-mail profissional">
-          <input type="text" class="item_form" placeholder="Telefone">
-          <input type="text" class="item_form" placeholder="Motivo do contato">
-          <textarea class="item_form-area" placeholder="Digite sua mensagem aqui" rows="6" cols="33"></textarea>
-          <input class="botao" type="submit" value="Enviar">
-        </form>
       </div>
     </div>
   </section>
