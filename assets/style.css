@@ -65,7 +65,7 @@ body {
         margin-left: 0px;
         margin-top: 30px; }
       .navbar .lista_links .btn_orcamento {
-        width: 50%;
+        width: 80%;
         padding: 10px 5px;
         background-color: #ffffff;
         border-radius: 4px;
@@ -134,7 +134,7 @@ body {
 
 @media (max-width: 960px) {
   .banner {
-    height: 95vh; }
+    height: 100vh; }
     .banner .titulo {
       width: 65vw;
       font-size: 15px; }
@@ -190,6 +190,8 @@ body {
       width: 90vw;
       margin-top: -15px;
       margin-left: 14px; }
+    .sobre .subtitulo {
+      font-size: 26px; }
     .sobre .btn {
       width: 100%;
       margin-left: 0; } }
@@ -396,6 +398,6 @@ body {
     display: none;
     position: unset; }
   .rodape .vlt__topo {
-    width: 9vh;
+    width: 30px;
     right: -4vh;
-    bottom: 6vh; } }
+    bottom: 8vh; } }

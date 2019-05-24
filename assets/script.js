@@ -11,7 +11,6 @@
         menu.classList.add("visivel");
         menu.classList.remove("escondido");
         visivel = true;
-
     }
 
     function escondeMenu() {
@@ -36,12 +35,9 @@
         if (event.target != menu && event.target != hmb) {
             escondeMenu();
         }
-
-
     })
 
     const menuItems = document.querySelectorAll('.lista_links a[href^="#"]');
-
     function getScrollTopByHref(element) {
         const id = element.getAttribute('href');
         return document.querySelector(id).offsetTop;
