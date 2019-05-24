@@ -38,6 +38,7 @@
     })
 
     const menuItems = document.querySelectorAll('.lista_links a[href^="#"]');
+
     function getScrollTopByHref(element) {
         const id = element.getAttribute('href');
         return document.querySelector(id).offsetTop;
